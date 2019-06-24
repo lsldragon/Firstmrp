@@ -104,7 +104,7 @@ void sing()
 {
 	if(soundinit(_MP3))
 	{
-		dtext("不支持",0,0,255,255,255,FALSE,1);
+		dtext("Unsupport!",0,0,255,255,255,FALSE,1);
 	}
 	else
 	{
@@ -123,7 +123,7 @@ void drawString()
 	ypos = rand()%320 ;
 
     cls(0,0,0);
-	dtext("李双龙的第一个MRP程序",0,ypos,r,g,b,0,0);
+	dtext("This is a string",0,ypos,r,g,b,0,0);
 	ref(0,0,SCRW,SCRH);
 }
 
