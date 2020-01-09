@@ -5,7 +5,7 @@ int32 timer;
 int init(void)
 {
 	startTimer();
-    return 0;
+        return 0;
 }
 
 void startTimer()
